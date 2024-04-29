@@ -21,4 +21,11 @@ $(document).ready(function(){
             table += '</table></div>';
             $('#koleksiBuku').html(table);
         },
+        error: function(xhr, textStatus, errorThrown) {
+            console.error(xhr, textStatus, errorThrown);
+            $('#informasiToko').html('<p>Failed to load JSON data.</p>');
+            $('#koleksiBuku').html('<p>Failed to load JSON data.</p>');
+        }
+    });
+});
         
