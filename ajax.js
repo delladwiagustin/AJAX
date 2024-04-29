@@ -3,7 +3,11 @@ $(document).ready(function(){
         url: 'toko_buku.json',
         dataType: 'json',
         success: function(data) {
-             var informasiToko = '<div><h2>Informasi Toko Buku</h2>' +
+            var informasiToko = '<p><strong>To:</strong> ' + data.to + '</p>' +
+                                '<p><strong>From:</strong> ' + data.from + '</p>' +
+                                '<p><strong>Heading:</strong> ' + data.heading + '</p>' +
+                                '<p><strong>Body:</strong> ' + data.body + '</p>' +
+                                '<div><h2>Informasi Toko Buku</h2>' +
                                 '<p><strong>Nama Toko:</strong> ' + data.nama_toko + '</p>' +
                                 '<p><strong>Pengarang:</strong> ' + data.pengarang + '</p>' +
                                 '<p><strong>Alamat:</strong> ' + data.alamat + '</p></div>';
