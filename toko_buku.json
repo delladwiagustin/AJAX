@@ -1,6 +1,22 @@
 {
-    "to": "Tove",
-    "from":"Jani",
-    "heading":"reminder",
-    "body":"Don't forget me this weekend!"
+    "nama_toko": "Toko Buku Braga",
+    "pengarang": "Della Dwi Agustin",
+    "alamat": "Jl. Pustaka No. 123",
+    "koleksi_buku": [
+        {
+            "judul": "Antara Pulang Dan Merelakan",
+            "tahun_terbit": 2022,
+            "jumlah_halaman": 200
+        },
+        {
+            "judul": "Pulang",
+            "tahun_terbit": 2003,
+            "jumlah_halaman": 100
+        },
+        {
+            "judul": "Pergi",
+            "tahun_terbit": 2019,
+            "jumlah_halaman": 300
+        }
+    ]
 }
